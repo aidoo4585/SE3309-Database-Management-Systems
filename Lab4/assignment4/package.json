@@ -1,0 +1,25 @@
+{
+  "name": "se_3309_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinbeaudry10/SE_3309_Project.git"
+  },
+  "author": "Justin Beaudry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinbeaudry10/SE_3309_Project/issues"
+  },
+  "homepage": "https://github.com/justinbeaudry10/SE_3309_Project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node": "^17.1.0",
+    "node.js": "^0.0.1-security"
+  }
+}

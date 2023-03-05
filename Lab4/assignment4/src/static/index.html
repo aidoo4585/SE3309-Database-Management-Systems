@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
+    <title>Postal Service</title>
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <a class="navbar-brand" href="/">Postal Service</a>
+      <h1
+        class="navbar-brand"
+        style="position: absolute; left: 50%; transform: translatex(-50%)"
+      >
+        Welcome
+      </h1>
+      <a href="/quit" id="quit">Quit</a>
+    </nav>
+    <div id="options">
+      <a href="/newCustomer" class="option">New Customer</a>
+      <a href="/payment" class="option">Payment</a>
+      <a href="/track" class="option">Track Packages</a>
+      <a href="/raise" class="option">Raise</a>
+      <a href="/truckInfo" class="option">Truck Info</a>
+    </div>
+    <br />
+  </body>
+  <footer
+    style="
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      margin-bottom: 0px;
+    "
+  >
+    <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Post Service All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</html>
